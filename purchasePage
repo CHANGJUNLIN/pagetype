@@ -1,7 +1,15 @@
 
         var products_list = [];
     products_list.push(
-                                { id: "216", price: 420, quantity: 2 }
+                                { id: "216", price: 420, quantity: 2 } //USD价格
+                                                /* #add a line for each item in the user's cart# */ 
+        );
+    products_list_gb.push(
+                                { id: "216", price: XXX, quantity: 2 } //GBP价格
+                                                /* #add a line for each item in the user's cart# */
+        );
+    products_list_de.push(
+                                { id: "216", price: XXX, quantity: 2 } //EUR价格
                                                 /* #add a line for each item in the user's cart# */
         );
         var dataLayer = dataLayer || [];
@@ -10,8 +18,13 @@
             'PageType': 'Transactionpage',
             'HashedEmail': 'a1925b0bfa6f7260f5fe4abaee835935',
             'ProductTransactionProducts': products_list,
+            'ProductTransactionProductsGB': products_list_gb,
+            'ProductTransactionProductsDE': products_list_de,
             'TransactionID': '160706-97298-333373'
-            
+            'img_url': 'http://img1.lulutrip.com/upload/201602/1455873433292.jpg' //产品图片URL
+            'product_url': 'http://www.lulutrip.com/tour/view/tourcode-216?utm_source=360&utm_medium=dpa' //产品详情页URL+'?utm_source=360&utm_medium=dpa'
+            'price_cny': 'XXX' //第一个产品的CNY价格
+            'rev_cny': 'XXX' //订单总CNY价格
     });
     
     
