@@ -1,0 +1,31 @@
+<script type="text/javascript">
+        var dataLayer = dataLayer || [];
+    dataLayer.push({
+            
+    });
+</script>
+<script type="text/javascript">
+
+
+	
+	dataLayer.push({
+		'event': 'checkout',
+        'currencyCode': 'USD',
+		  'ecommerce': {
+		    'checkout': {
+		     'actionField': {'step': 2},
+		      'products': [
+   		      {                            // List of productFieldObjects.
+   			        'name': '美东四城豪华六日 年度爆款 大瀑布游船(旅行团216)USEast',     // Name or ID is required.
+   			        'id': '216',
+   			        'price': '560',
+   			        'brand': 20,
+   			        'category': 'USEast',
+   			        'quantity': 2,
+    	       },    	           	           	           	           	       ]
+		    }
+		  }
+		});
+	
+
+</script>
