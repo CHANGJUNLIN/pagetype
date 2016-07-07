@@ -1,0 +1,50 @@
+<script type="text/javascript">
+        var dataLayer = dataLayer || [];
+    dataLayer.push({
+                    //详情页
+            'PageType': 'Productpage',
+            'HashedEmail': 'a1925b0bfa6f7260f5fe4abaee835935',
+            'ProductID': '216',
+            'travel_pagetype': 'productPage',  //目前pagetype都是'productPage'
+            'travel_destid': '216',  //产品ID
+            'travel_origin': 'NYC', //产品出发城市
+            'travel_totalvalue': '210' //产品显示价格
+                        
+    });
+</script>
+<script type="text/javascript">
+
+
+	
+	dataLayer.push({
+	    'currencyCode': 'USD', // Local currency is optional.
+	    'ecommerce': {
+	    	   'detail' : {
+	    		   'products': [{
+  	   		        'name': '美东四城豪华六日 年度爆款 大瀑布游船(旅行团216)',       // Name or ID is required.
+  	   		        'id': '216',
+  	   		        'price': '210',
+  	   		        'brand': '20',
+  	   		        'category': 'USEast'
+  	   		     }]
+	    }
+	  }
+	});
+	function ga_addtocart_tour() {
+		var person_num = parseInt($("#c_adult_num").html()) + parseInt($("#c_child_num").html());
+		dataLayer.push({
+		  'event': 'addToCart',
+          'currencyCode': 'USD',
+		  'ecommerce': {
+		    'add': {
+		      'products': [{
+		        'name': '美东四城豪华六日 年度爆款 大瀑布游船(旅行团216)',
+		        'id': '216',
+		        'price': '210',
+		        'brand': '20',
+		        'category': 'USEast',
+		        'quantity': person_num
+		       }]
+		    }
+		  }
+		});
