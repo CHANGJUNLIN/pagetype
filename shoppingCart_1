@@ -1,0 +1,42 @@
+<script type="text/javascript">
+        var products_list = [];
+    products_list.push(
+                                                { id: "216", price: 280, quantity:1 }
+                        /* #add a line for each item in the user's cart# */
+    );
+        var dataLayer = dataLayer || [];
+    dataLayer.push({
+                    //购物车
+            'PageType': 'Basketpage',
+            'HashedEmail': 'a1925b0bfa6f7260f5fe4abaee835935',
+            'ProductBasketProducts': products_list
+            
+    });
+</script>
+<script type="text/javascript">
+
+
+
+dataLayer.push({
+	'event': 'checkout',
+    'currencyCode': 'USD',
+	  'ecommerce': {
+		'currencyCode': 'USD',
+	    'checkout': {
+	      'currencyCode': 'USD',
+	     'actionField': {'step': 1},
+	     'products': [
+		  	      {
+	        'name': '美东四城豪华六日 年度爆款 大瀑布游船(旅行团216)USEast',
+	        'id': '216',
+	        'price': '280',
+	        'brand': 20,
+	        'category': 'USEast',
+	        'quantity': 1
+	       }	       	           	   		   	       ]
+	    }
+	  }
+	});
+
+
+</script>
