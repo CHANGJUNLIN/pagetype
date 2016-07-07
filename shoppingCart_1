@@ -4,12 +4,22 @@
                                                 { id: "216", price: 280, quantity:1 }
                         /* #add a line for each item in the user's cart# */
     );
+    products_list_gb.push(
+                                { id: "216", price: XXX, quantity: 2 } //GBP价格
+                                                /* #add a line for each item in the user's cart# */
+        );
+    products_list_de.push(
+                                { id: "216", price: XXX, quantity: 2 } //EUR价格
+                                                /* #add a line for each item in the user's cart# */
+        );
         var dataLayer = dataLayer || [];
     dataLayer.push({
                     //购物车
             'PageType': 'Basketpage',
             'HashedEmail': 'a1925b0bfa6f7260f5fe4abaee835935',
-            'ProductBasketProducts': products_list
+            'ProductBasketProducts': products_list,
+            'ProductTransactionProductsGB': products_list_gb,
+            'ProductTransactionProductsDE': products_list_de
             
     });
 </script>
