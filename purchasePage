@@ -20,10 +20,10 @@
             'ProductTransactionProducts': products_list,
             'ProductTransactionProductsGB': products_list_gb,
             'ProductTransactionProductsDE': products_list_de,
-            'TransactionID': '160706-97298-333373'
-            'img_url': 'http://img1.lulutrip.com/upload/201602/1455873433292.jpg' //产品图片URL
-            'product_url': 'http://www.lulutrip.com/tour/view/tourcode-216?utm_source=360&utm_medium=dpa' //产品详情页URL+'?utm_source=360&utm_medium=dpa'
-            'price_cny': 'XXX' //第一个产品的CNY价格
+            'TransactionID': '160706-97298-333373',
+            'img_url': 'http://img1.lulutrip.com/upload/201602/1455873433292.jpg', //产品图片URL
+            'product_url': 'http://www.lulutrip.com/tour/view/tourcode-216?utm_source=360&utm_medium=dpa', //产品详情页URL+'?utm_source=360&utm_medium=dpa'
+            'price_cny': 'XXX', //第一个产品的CNY价格
             'rev_cny': 'XXX' //订单总CNY价格
     });
     
