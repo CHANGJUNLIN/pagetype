@@ -11,13 +11,7 @@
             'travel_totalvalue': '210' //产品显示价格
             'img_url': 'http://img1.lulutrip.com/upload/201602/1455873433292.jpg' //产品图片URL
             'product_url': 'http://www.lulutrip.com/tour/view/tourcode-216?utm_source=360&utm_medium=dpa' //产品详情页URL+'?utm_source=360&utm_medium=dpa'
-            'prices': [{
-  	   		        'USD': 'XXX', 
-  	   		        'EUR': 'XXX',
-  	   		        'CAD': 'XXX',
-  	   		        'RMB': 'XXX',
-  	   		        'GBP': 'XXX'
-  	   		     }] //不同币种的产品价格
+            'price_cny': 'XXX' //CNY的产品价格
                         
     });
 </script>
